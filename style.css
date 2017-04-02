@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Munro;
+  src: url(Munro.ttf);
+}
+ul  {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.jumbotron {
+  background-color: black;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkorange;
+  font-family: Munro;
+}
+.jumbotron > h2 {
+  font-size: 50px;
+}
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  background: black;
+  color: orange;
+  font-size: 18px;
+  font-family: Munro;
+}
+.btn:hover {
+  color: yellow;
+}
